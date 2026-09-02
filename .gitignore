@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Model checkpoints / large artifacts
+*.pt
+*.bin
+*.safetensors
+checkpoints/
+outputs/
+
+# OS
+.DS_Store
+Thumbs.db
